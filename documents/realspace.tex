@@ -6,20 +6,29 @@
 % - merge into some existing github repo
 
 \documentclass[12pt]{article}
+\input{vc}
 
 \begin{document}
 
-\section*{Real-space analysis of the cosmic microwave background radiation anisotropy}
+\section*{Real-space analysis of the \\ cosmic background radiation anisotropy}
+\noindent
+David W. Hogg\\
+{\footnotesize
+\textsl{Center for Cosmology and Particle Physics, Department of Physics, New York University}\\
+\textsl{Center for Data Science, New York University}\\
+\texttt{draft document / git hash \githash\ (\gitdate)}}
 
 \begin{abstract}
-The CMB is almost always analyzed in Fourier space ($\ell$--$m$ space)
+The cosmic microwave background (CMB) is almost always analyzed
+in Fourier space ($\ell$--$m$ space)
 rather than real space ($\theta$--$\phi$ space), and for good reason:
 In Fourier space the (isotropic) physical cosmology generates a
 diagonal variance tensor that depends only on $\ell$.
 However, there are a number of important reasons to consider
 real-space analyses:
-The measurement noise variance tensor is (usually) diagonal in real
-space, the cut sky is cut in real space, the doppler boost of the CMB
+The measurement noise variance tensor is (usually) diagonal in real space,
+data defects and point sources are localized in real space but not in Fourier space,
+the cut sky is in real space, the doppler boost of the CMB
 is a real-space distortion (especially at high $\ell$), and the
 Milky-Way foregrounds have non-trivial real-space templates.
 Here we simultaneously present the real-space version of the standard
