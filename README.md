@@ -1,4 +1,4 @@
-# CMB
+# CoMiBaRaAn
 
 Joint spectral-energy-distribution and spatial priors for separating contributions
 to multi-mission CMB data or other all-sky maps.
@@ -9,4 +9,4 @@ And stuff like that.
 - David W. Hogg (NYU)
 
 ## license
-Copyright 2014 the authors.  **All rights reserved**.
+Copyright 2014, 2015 the authors.  **All rights reserved**.
